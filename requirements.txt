@@ -1,0 +1,18 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+numpy==1.19.3
+opencv-python==4.5.3.56
+keras==2.6.0
+keras-nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
+pytesseract==0.3.8
+Pillow==8.3.2
+matplotlib
+matplotlib-inline
+
+tensorflow==2.5.0
+tensorflow-estimator==2.5.0
+jsonschema==3.2.0
